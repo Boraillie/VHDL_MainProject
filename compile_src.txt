@@ -1,0 +1,10 @@
+#efface bibliothèque
+#rm -rf ./LIB/LIB_RTL
+#Création bibliothèque
+vlib ./LIB/LIB_RTL
+
+#Compilation des fichiers src (Attention à l'ordre)
+echo "vcom -work LIB_RTL ./SRC/RTL/fulladder.vhd"
+vcom -work LIB_RTL ./SRC/RTL/fulladder.vhd
+vcom -work LIB_RTL ./SRC/RTL/fulladder_nbitsand.vhd
+vcom -work LIB_RTL ./SRC/RTL/multip_nbits.vhd

@@ -1,0 +1,12 @@
+#efface bibliothèque
+#rm -rf ./LIB/LIB_BENCH
+#Création bibliothèque
+vlib ./LIB/LIB_BENCH
+
+#Compilation des fichiers TB (Attention à l'ordre)
+echo "vcom -work LIB_BENCH ./SRC/BENCH/multip_nbits_tb.vhd"
+vcom -work LIB_BENCH ./SRC/BENCH/multip_nbits_tb.vhd
+
+
+#Lance la simulation modelsim
+vsim LIB_BENCH.multip_nbits_tb_conf

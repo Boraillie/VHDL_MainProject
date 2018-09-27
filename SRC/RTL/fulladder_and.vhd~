@@ -1,0 +1,62 @@
+library IEEE;
+use IEEE.std_logic_1164.all;
+library lib_rtl;
+
+entity fulladder4b_generate is
+  generic (
+        bits:integer := 16
+  );
+  port (
+        op1_i : in std_logic_vector(bits-1 downto 0);
+        op2_i : in std_logic_vector(bits-1 downto 0);
+        ret_i : in std_logic;
+        res_o : out std_logic_vector(bits-1 downto 0);
+        ret_o : out std_logic
+    );
+end fulladder4b_generate;
+
+architecture fulladder4b_generate_arch of fulladder4b_generate is
+
+    component fulladder
+        port (
+            a_i    : in  std_logic;
+            b_i    : in  std_logic;
+            cin_i  : in  std_logic;
+            s_o    : out std_logic;
+            cout_o : out std_logic
+        );
+    end component;
+
+    signal ret_s : std_logic_vector(bits downto 0);
+    signal s  : std_logic_vector(bits-1 downto 0);
+
+
+begin  -- fulladder4b_generate_arch
+
+ret_s(0) <= ret_i;
+
+l1: for k in bits-1 downto 0 generate
+    fulladder_1: fulladder
+        port map (
+            a_i    => op1_i(k),
+            b_i    => op2_i(k),
+            cin_i  => ret_s(k),
+            s_o    => s(k),
+            cout_o => ret_s(k+1)
+        );
+end generate l1;
+
+res_o <= s;
+ret_o <= ret_s(bits);
+
+end fulladder4b_generate_arch;
+
+configuration fulladder4b_generate_conf of fulladder4b_generate is
+    for fulladder4b_generate_arch
+        for l1
+            for fulladder_1 : fulladder
+                use entity lib_rtl.fulladder(fulladder_arch);
+            end for;
+        end for;
+    end for;
+end fulladder4b_generate_conf;

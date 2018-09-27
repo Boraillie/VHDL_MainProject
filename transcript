@@ -1,0 +1,19 @@
+# //  ModelSim SE-64 10.0 Dec  4 2010 Linux 2.6.32-431.el6.x86_64
+# //
+# //  Copyright 1991-2010 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //
+# vsim -do fulladder_tb_wave.do LIB_BENCH.fulladder_tb_conf 
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.fulladder_tb_conf#1
+# Loading work.fulladder_tb(fulladder_tb_arch)#1
+# Loading lib_rtl.fulladder(fulladder_arch)#1
+# Window cannot be closed because the modal window "Quit Vsim" is still open.
+# Window cannot be closed because the modal window "Quit Vsim" is still open.
