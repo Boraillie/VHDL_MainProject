@@ -1,0 +1,8 @@
+# compilation du fichier verilog
+vlog -work LIB_GATES ./SRC/GATES/fulladder.v
+
+#compilation du fichier test bench après synthèse
+vcom -work LIB_BENCH ./SRC/BENCH/fulladder_synth_tb.vhd
+
+#lanchement du simulateur avec toutes les options liées à la simulation après synthèse
+vsim -L LIB_AMS -sdftyp /DUT=.SYNTH/SDF/fulladder.sdf LIB_BENCH.fulladder_synth_tb -t ps

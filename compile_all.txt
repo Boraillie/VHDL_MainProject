@@ -1,7 +1,0 @@
-source compile_src.txt
-source compile_bench.txt
-
-#add wave -position insertpoint sim:/fulladder_nbitsand_tb/DUT/*
-add wave -position insertpoint sim:/multip_nbits_tb/DUT/*
-
-run 100

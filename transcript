@@ -7,13 +7,19 @@
 # //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
 # //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
 # //
-# vsim -do fulladder_tb_wave.do LIB_BENCH.fulladder_tb_conf 
+# vsim -L LIB_AMS -sdftyp /DUT=./SYNTH/SDF/fulladder.sdf -t ps LIB_BENCH.fulladder_synth_tb 
 # ** Note: (vsim-3812) Design is being optimized...
 # Loading std.standard
 # Loading std.textio(body)
 # Loading ieee.std_logic_1164(body)
-# Loading work.fulladder_tb_conf#1
-# Loading work.fulladder_tb(fulladder_tb_arch)#1
-# Loading lib_rtl.fulladder(fulladder_arch)#1
-# Window cannot be closed because the modal window "Quit Vsim" is still open.
-# Window cannot be closed because the modal window "Quit Vsim" is still open.
+# Loading work.fulladder_synth_tb(fulladder_synth_tb_arch)#1
+# Loading lib_gates.fulladder(fast)
+# Loading LIB_AMS.XNR20(fast)
+# Loading LIB_AMS.CLKIN0(fast)
+# Loading LIB_AMS.AOI220(fast)
+# Loading instances from ./SYNTH/SDF/fulladder.sdf
+# Loading timing data from ./SYNTH/SDF/fulladder.sdf
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /fulladder_synth_tb File: /eleves/home/antoine.bore/3a/./SRC/BENCH/fulladder_synth_tb.vhd
+run
+run

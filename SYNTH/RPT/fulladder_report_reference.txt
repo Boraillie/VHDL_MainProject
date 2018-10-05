@@ -1,0 +1,27 @@
+ 
+****************************************
+Report : reference
+Design : fulladder
+Version: D-2010.03-SP5-2
+Date   : Wed Sep 26 11:38:21 2018
+****************************************
+
+Attributes:
+    b - black box (unknown)
+   bo - allows boundary optimization
+    d - dont_touch
+   mo - map_only
+    h - hierarchical
+    n - noncombinational
+    r - removable
+    s - synthetic operator
+    u - contains unmapped logic
+
+Reference          Library       Unit Area   Count    Total Area   Attributes
+-----------------------------------------------------------------------------
+CLKIN15            c35_CORELIB   109.199997       5   545.999985  
+NOR24              c35_CORELIB   109.199997       5   545.999985  
+XOR22              c35_CORELIB   200.199997       2   400.399994  
+-----------------------------------------------------------------------------
+Total 3 references                                   1492.399963
+1

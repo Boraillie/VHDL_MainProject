@@ -1,0 +1,63 @@
+ 
+****************************************
+Report : port
+        -verbose
+Design : fulladder
+Version: D-2010.03-SP5-2
+Date   : Wed Sep 26 11:38:21 2018
+****************************************
+
+
+                       Pin      Wire     Max     Max     Connection
+Port           Dir     Load     Load     Trans   Cap     Class      Attrs
+--------------------------------------------------------------------------------
+a_i            in      0.0000   0.0000   --      --      --         
+b_i            in      0.0000   0.0000   --      --      --         
+cin_i          in      0.0000   0.0000   --      --      --         
+cout_o         out     0.0000   0.0000   --      --      --         
+s_o            out     0.0000   0.0000   --      --      --         
+
+
+              External  Max             Min                Min       Min
+              Number    Wireload        Wireload           Pin       Wire
+Port          Points    Model           Model              Load      Load
+--------------------------------------------------------------------------------
+a_i                1      --              --              --        -- 
+b_i                1      --              --              --        -- 
+cin_i              1      --              --              --        -- 
+cout_o             1      --              --              --        -- 
+s_o                1      --              --              --        -- 
+
+                    Input Delay
+                  Min             Max       Related   Max
+Input Port    Rise    Fall    Rise    Fall   Clock  Fanout
+--------------------------------------------------------------------------------
+a_i           --      --      --      --      --      -- 
+b_i           --      --      --      --      --      -- 
+cin_i         --      --      --      --      --      -- 
+
+
+               Max Drive      Min Drive      Resistance    Min    Min       Cell
+Input Port    Rise    Fall   Rise    Fall   Max     Min    Cap    Fanout    Deg
+--------------------------------------------------------------------------------
+a_i           --      --     --      --     --      --     --     --        -- 
+b_i           --      --     --      --     --      --     --     --        -- 
+cin_i         --      --     --      --     --      --     --     --        -- 
+
+
+               Max Tran        Min Tran
+Input Port    Rise    Fall    Rise    Fall
+--------------------------------------------------------------------------------
+a_i           --      --      --      -- 
+b_i           --      --      --      -- 
+cin_i         --      --      --      -- 
+
+
+                    Output Delay
+                  Min             Max      Related  Fanout
+Output Port   Rise    Fall    Rise    Fall  Clock     Load
+--------------------------------------------------------------------------------
+cout_o        --      --      --      --      --      0.00
+s_o           --      --      --      --      --      0.00
+
+1

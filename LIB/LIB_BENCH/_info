@@ -1,339 +1,102 @@
 m255
 K3
-z0
 13
 cModel Technology
 Z0 d/eleves/home/antoine.bore/3a
 T_opt
-Vdz:fB[M9^a?Lb1]^E04^B3
-04 17 0 work fulladder_tb_conf 1
-=1-40a8f0c97e4f-5ba49df0-b82cb-4330
-o-quiet -auto_acc_if_foreign -work LIB_BENCH
-n@_opt
-OL;O;10.0;49
-R0
-Efulladder_and_tb
-Z1 w1537891550
-Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
-Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
-Z4 dD:/EMSE/3a/vhdl/3a
-Z5 8./SRC/BENCH/fulladder_and_tb.vhd
-Z6 F./SRC/BENCH/fulladder_and_tb.vhd
+V;5VbkZHOgLIR]Om05od]50
+04 18 23 work fulladder_synth_tb fulladder_synth_tb_arch 1
+Z1 =1-40a8f0c97e4f-5bb773db-6295e-279c
+Z2 o-quiet -auto_acc_if_foreign -work LIB_BENCH -L LIB_AMS -sdftyp /DUT=./SYNTH/SDF/fulladder.sdf -suppress 1948
+Z3 n@_opt
+Z4 OL;O;10.0;49
+Z5 d/eleves/home/antoine.bore/3a
+Efulladder_synth_tb
+Z6 w1538747388
+Z7 DPx3 std 6 textio 0 22 G^o2zK;Vh4eVdKTVo98653
+Z8 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+R5
+Z9 8./SRC/BENCH/fulladder_synth_tb.vhd
+Z10 F./SRC/BENCH/fulladder_synth_tb.vhd
 l0
-L7
-VBCX=2VaJ>1QaSjEAiU14j2
-!s100 X>ZGBH`M;6L;d1D?i^gBC3
-Z7 OP;C;10.4a;61
+L6
+Z11 VSGE5DHm;2ImX`f0a_>n6Z1
+Z12 OL;C;10.0;49
 32
-Z8 !s110 1537891553
-!i10b 1
-Z9 !s108 1537891553.000000
-Z10 !s90 -reportprogress|300|-work|LIB_BENCH|./SRC/BENCH/fulladder_and_tb.vhd|
-Z11 !s107 ./SRC/BENCH/fulladder_and_tb.vhd|
-!i113 1
-Z12 o-work LIB_BENCH -O0
-Z13 tExplicit 1
-Afulladder_and_tb_arch
-R2
-R3
-Z14 DEx4 work 16 fulladder_and_tb 0 22 BCX=2VaJ>1QaSjEAiU14j2
-l30
-L11
-VHP8984ZzZhP>jQ6`aR;FH2
-!s100 4>[0e6z]<EbUa5cB49T_`0
+Z13 !s108 1538749332.261144
+Z14 !s90 -work|LIB_BENCH|./SRC/BENCH/fulladder_synth_tb.vhd|
+Z15 !s107 ./SRC/BENCH/fulladder_synth_tb.vhd|
+Z16 o-work LIB_BENCH
+Z17 tExplicit 1
+Z18 !s100 ZDd^3W_fJ]G<Q=LQ8:^UN1
+Afulladder_synth_tb_arch
 R7
-32
 R8
-!i10b 1
-R9
-R10
-R11
-!i113 1
+Z19 DEx4 work 18 fulladder_synth_tb 0 22 SGE5DHm;2ImX`f0a_>n6Z1
+l22
+L10
+Z20 V<1dT565clbVaSbmPJg[M71
 R12
+32
 R13
-Cfulladder_and_tb_conf
-efulladder_and_tb
-afulladder_and_tb_arch
-Z15 DEx7 lib_rtl 13 fulladder_and 0 22 jYDli3KN:n;G7NCXM;Q^Y1
-DAx4 work 16 fulladder_and_tb 21 fulladder_and_tb_arch 22 HP8984ZzZhP>jQ6`aR;FH2
-R2
-R3
 R14
-R1
-R4
-R5
-R6
-l0
-L48
-VKJ8j]Q[0VI>fOIaI=@l;H3
-!s100 Cbhah31hXj>^lJPf?o^QK1
-R7
-32
-R8
-!i10b 1
-R9
-R10
-R11
-!i113 1
-R12
-R13
-Efulladder_end_tb
-Z16 w1537891249
-R2
-R3
-R4
-R5
-R6
-l0
-L7
-Vn3UQXNI0^Eh6MoNnjI?jm2
-!s100 X;^7P]K_a7@=HB2lIQlm]1
-R7
-32
-Z17 !s110 1537891323
-!i10b 1
-Z18 !s108 1537891323.000000
-R10
-R11
-!i113 1
-R12
-R13
-Afulladder_end_tb_arch
-R2
-R3
-Z19 DEx4 work 16 fulladder_end_tb 0 22 n3UQXNI0^Eh6MoNnjI?jm2
-l30
-L11
-VR;0fN7<ZZSI_WJC1_YADD0
-!s100 KzMZIJ2ZmcU<miYQX`VR42
-R7
-32
-R17
-!i10b 1
-R18
-R10
-R11
-!i113 1
-R12
-R13
-Cfulladder_end_tb_conf
-efulladder_end_tb
-afulladder_end_tb_arch
 R15
-DAx4 work 16 fulladder_end_tb 21 fulladder_end_tb_arch 22 R;0fN7<ZZSI_WJC1_YADD0
-R2
-R3
-R19
 R16
-R4
-R5
-R6
-l0
-L48
-VJlUIneiEKO44=VI9TPEL:0
-!s100 0ICka<<OE_eK>hRNGZGgD3
-R7
-32
 R17
-!i10b 1
-R18
-R10
-R11
-!i113 1
-R12
-R13
-Efulladder_nbitsand_tb
-Z20 w1537906104
-R2
-R3
-R4
-Z21 8./SRC/BENCH/fulladder_nbitsand_tb.vhd
-Z22 F./SRC/BENCH/fulladder_nbitsand_tb.vhd
-l0
-L5
-VFFaDM]HJ6=:9iAXQ2S06Y2
-!s100 2_6Q2a28GcZ2^[OH:IdoN1
-R7
-32
-Z23 !s110 1537906106
-!i10b 1
-Z24 !s108 1537906105.000000
-Z25 !s90 -reportprogress|300|-work|LIB_BENCH|./SRC/BENCH/fulladder_nbitsand_tb.vhd|
-Z26 !s107 ./SRC/BENCH/fulladder_nbitsand_tb.vhd|
-!i113 1
-R12
-R13
-Afulladder_nbitsand_tb_arch
-R2
-R3
-Z27 DEx4 work 21 fulladder_nbitsand_tb 0 22 FFaDM]HJ6=:9iAXQ2S06Y2
-l37
-L9
-VUOCW7OdDdYOH?[URSREEb2
-!s100 8JDKUW27@SNgPRYQk^_VO2
-R7
-32
-R23
-!i10b 1
-R24
-R25
-R26
-!i113 1
-R12
-R13
-Cfulladder_nbitsand_tb_conf
-efulladder_nbitsand_tb
-afulladder_nbitsand_tb_arch
-DEx7 lib_rtl 18 fulladder_nbitsand 0 22 8_bV`oHlH7<3A;TDUZ3ak3
-DAx4 work 21 fulladder_nbitsand_tb 26 fulladder_nbitsand_tb_arch 22 UOCW7OdDdYOH?[URSREEb2
-R2
-R3
-R27
-R20
-R4
-R21
-R22
-l0
-L59
-V^9a8GBn3A]EUIGkWTQZ=60
-!s100 LgD;WaFhNRN@F=eRc=ZWH0
-R7
-32
-R23
-!i10b 1
-R24
-R25
-R26
-!i113 1
-R12
-R13
+Z21 !s100 Ue==3jILkEK`KcTBQ@NEH2
 Efulladder_tb
-Z28 w1537888510
-R2
-R3
-R4
-Z29 8./SRC/BENCH/fulladder_tb.vhd
-Z30 F./SRC/BENCH/fulladder_tb.vhd
+Z22 w1537169483
+R7
+R8
+R5
+Z23 8./SRC/BENCH/fulladder_tb.vhd
+Z24 F./SRC/BENCH/fulladder_tb.vhd
 l0
 L7
-VcRGC`[nMlYa^;GjZj]Pe:2
-!s100 UNVF90Z>h@lmER@Ng[j1Y1
-R7
-32
-Z31 !s110 1537889833
-!i10b 1
-Z32 !s108 1537889833.000000
-Z33 !s90 -reportprogress|300|-work|LIB_BENCH|./SRC/BENCH/fulladder_tb.vhd|
-Z34 !s107 ./SRC/BENCH/fulladder_tb.vhd|
-!i113 1
+Z25 VNoOiNezYkf@RJ35ZUk?OT2
 R12
-R13
+32
+Z26 !s108 1537890390.785092
+Z27 !s90 -work|LIB_BENCH|./SRC/BENCH/fulladder_tb.vhd|
+Z28 !s107 ./SRC/BENCH/fulladder_tb.vhd|
+R16
+R17
+Z29 !s100 mbRMjhfeQOAgF3XF>N6Pm3
 Afulladder_tb_arch
-R2
-R3
-Z35 DEx4 work 12 fulladder_tb 0 22 cRGC`[nMlYa^;GjZj]Pe:2
+R7
+R8
+Z30 DEx4 work 12 fulladder_tb 0 22 NoOiNezYkf@RJ35ZUk?OT2
 l28
 L11
-VC=j;kL2fSFzAgezWZP>ST0
-!s100 BAN76zFROZB6UX^LCS5]R1
-R7
-32
-R31
-!i10b 1
-R32
-R33
-R34
-!i113 1
+Z31 VWCWdaA2RgT2Y6fPUNVHj:2
 R12
-R13
-Cfulladder_tb_conf
-efulladder_tb
-afulladder_tb_arch
-DEx7 lib_rtl 9 fulladder 0 22 S>l835XWVLV]AG2SDBlGZ3
-DAx4 work 12 fulladder_tb 17 fulladder_tb_arch 22 C=j;kL2fSFzAgezWZP>ST0
-R2
-R3
-R35
+32
+R26
+R27
 R28
-R4
-R29
+R16
+R17
+Z32 !s100 UVeR<^@VcI_ZcSM5?3VkQ2
+Cfulladder_tb_conf
+Z33 afulladder_tb_arch
+Z34 efulladder_tb
+Z35 DEx7 lib_rtl 9 fulladder 0 22 VAL5^F^S:>lIX>;I[6Vze1
+Z36 DAx4 work 12 fulladder_tb 17 fulladder_tb_arch 22 WCWdaA2RgT2Y6fPUNVHj:2
+R7
+R8
 R30
+R22
+R5
+R23
+R24
 l0
 L44
-VD_?;eU7>6OEKl3oQaYH@F2
-!s100 2LFn?E6a1Uc@K0hO4fS6h1
-R7
-32
-R31
-!i10b 1
-R32
-R33
-R34
-!i113 1
+Z37 VzbHCdfMncH9DI=lT^d7<=1
 R12
-R13
-Emultip_nbits_tb
-Z36 w1537909495
-R2
-R3
-R4
-Z37 8./SRC/BENCH/multip_nbits_tb.vhd
-Z38 F./SRC/BENCH/multip_nbits_tb.vhd
-l0
-L5
-V@QD^_hMnA=mf1CQg7E;7W3
-!s100 FCd4nE;8Zk8M0do3NOb2?1
-R7
 32
-Z39 !s110 1537909502
-!i10b 1
-Z40 !s108 1537909502.000000
-Z41 !s90 -reportprogress|300|-work|LIB_BENCH|./SRC/BENCH/multip_nbits_tb.vhd|
-Z42 !s107 ./SRC/BENCH/multip_nbits_tb.vhd|
-!i113 1
-R12
-R13
-Amultip_nbits_tb_arch
-R2
-R3
-Z43 DEx4 work 15 multip_nbits_tb 0 22 @QD^_hMnA=mf1CQg7E;7W3
-l31
-L9
-VMERc7ZPf5Qj[H7L_PA3Lf2
-!s100 FYUQkGeK^O0KmH6jEhHzn1
-R7
-32
-R39
-!i10b 1
-R40
-R41
-R42
-!i113 1
-R12
-R13
-Cmultip_nbits_tb_conf
-emultip_nbits_tb
-amultip_nbits_tb_arch
-DEx7 lib_rtl 12 multip_nbits 0 22 PNfIDkVEOTXj<l_lmY6`23
-DAx4 work 15 multip_nbits_tb 20 multip_nbits_tb_arch 22 MERc7ZPf5Qj[H7L_PA3Lf2
-R2
-R3
-R43
-R36
-R4
-R37
-R38
-l0
-L48
-Ve5J5Me`oehF7SGR=:Sjm10
-!s100 VeaGPZllU<i6fP:d=DiRV2
-R7
-32
-R39
-!i10b 1
-R40
-R41
-R42
-!i113 1
-R12
-R13
+R26
+R27
+R28
+R16
+R17
+Z38 !s100 ]?f^2DDDJEe^@3nbz^[>]1

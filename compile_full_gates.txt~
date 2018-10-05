@@ -1,0 +1,2 @@
+# compilation du fichier verilog
+vlog -work LIB_GATES ./SRC/GATES/fulladder.v
