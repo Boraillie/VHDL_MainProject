@@ -1,13 +1,2 @@
- 
-****************************************
-Report : hierarchy
-Design : fulladder
-Version: D-2010.03-SP5-2
-Date   : Wed Sep 26 11:38:21 2018
-****************************************
-
-fulladder
-    CLKIN15         c35_CORELIB
-    NOR24           c35_CORELIB
-    XOR22           c35_CORELIB
-1
+Error: Current design is not defined. (UID-4)
+0

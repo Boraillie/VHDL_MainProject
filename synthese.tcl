@@ -3,22 +3,24 @@ set PROJECT_NAME "."
 set synth_dir "$PROJECT_NAME/SYNTH"
 set rtl_dir "$PROJECT_NAME/SRC/RTL"
 set synth2_dir "$PROJECT_NAME/SRC/GATES"
-set top_name "fulladder"
+set top_name "multip_nbits"
 #set clock_name "clock_i"
 
-#liste des fichiers à analyser dans l'ordre
+#liste des fichiers ï¿½ analyser dans l'ordre
 
 
 set rtl_list [ list \
 		   $rtl_dir/fulladder.vhd\
+		   $rtl_dir/fulladder_nbitsand.vhd\
+		   $rtl_dir/multip_nbits.vhd\
 		  ]
 #analyse des fichiers
 analyze -library LIB_RTL  -format vhdl $rtl_list
 
-#elaboration des fichiers analysées
-elaborate $top_name -architecture ${top_name}_arch -library LIB_RTL
+#elaboration des fichiers analysï¿½es
+elaborate $top_name -architecture ${top_name}_arch -library LIB_RTL -parameters "nb_bits = 4"
 
-#sauvegarde après analyse et elaboration
+#sauvegarde aprï¿½s analyse et elaboration
 write -format ddc -hierarchy -output $synth_dir/DDC/${top_name}_elab.ddc
 
 #contraintes
@@ -26,13 +28,13 @@ set_operating_conditions -library c35_CORELIB nom_pvt
 set_wire_load_model -name 10k -library c35_CORELIB
 #set cycleTime 20 
 #create_clock -name "clock" -period $cycleTime -waveform { 10 20  } $clock_name
-#sauvegarde après analyse et elaboration
+#sauvegarde aprï¿½s analyse et elaboration
 write -format ddc -hierarchy -output $synth_dir/DDC/${top_name}_const.ddc
 
-#synthèse
+#synthï¿½se
 compile -map_effort high -area_effort medium -incremental_mapping
 
-#sauvegarde après analyse et elaboration
+#sauvegarde aprï¿½s analyse et elaboration
 write -format ddc -hierarchy -output $synth_dir/DDC/${top_name}_synth.ddc
 
 #generation du code vhdl

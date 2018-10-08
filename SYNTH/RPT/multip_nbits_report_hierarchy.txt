@@ -1,0 +1,91 @@
+ 
+****************************************
+Report : hierarchy
+Design : multip_nbits_Nb_bits4
+Version: D-2010.03-SP5-2
+Date   : Mon Oct  8 15:51:50 2018
+****************************************
+
+multip_nbits_Nb_bits4
+    LOGIC0                          c35_CORELIB
+    fulladder_nbitsand_N4_0
+        CLKIN0                      c35_CORELIB
+        LOGIC0                      c35_CORELIB
+        NAND20                      c35_CORELIB
+        fulladder_0
+            AOI220                  c35_CORELIB
+            CLKIN0                  c35_CORELIB
+            XNR20                   c35_CORELIB
+        fulladder_13
+            AOI220                  c35_CORELIB
+            CLKIN0                  c35_CORELIB
+            XNR20                   c35_CORELIB
+        fulladder_14
+            AOI220                  c35_CORELIB
+            CLKIN0                  c35_CORELIB
+            XNR20                   c35_CORELIB
+        fulladder_15
+            AOI220                  c35_CORELIB
+            CLKIN0                  c35_CORELIB
+            XNR20                   c35_CORELIB
+    fulladder_nbitsand_N4_1
+        CLKIN0                      c35_CORELIB
+        LOGIC0                      c35_CORELIB
+        NAND20                      c35_CORELIB
+        fulladder_1
+            AOI220                  c35_CORELIB
+            CLKIN0                  c35_CORELIB
+            XNR20                   c35_CORELIB
+        fulladder_2
+            AOI220                  c35_CORELIB
+            CLKIN0                  c35_CORELIB
+            XNR20                   c35_CORELIB
+        fulladder_3
+            AOI220                  c35_CORELIB
+            CLKIN0                  c35_CORELIB
+            XNR20                   c35_CORELIB
+        fulladder_4
+            AOI220                  c35_CORELIB
+            CLKIN0                  c35_CORELIB
+            XNR20                   c35_CORELIB
+    fulladder_nbitsand_N4_2
+        CLKIN0                      c35_CORELIB
+        LOGIC0                      c35_CORELIB
+        NAND20                      c35_CORELIB
+        fulladder_5
+            AOI220                  c35_CORELIB
+            CLKIN0                  c35_CORELIB
+            XNR20                   c35_CORELIB
+        fulladder_6
+            AOI220                  c35_CORELIB
+            CLKIN0                  c35_CORELIB
+            XNR20                   c35_CORELIB
+        fulladder_7
+            AOI220                  c35_CORELIB
+            CLKIN0                  c35_CORELIB
+            XNR20                   c35_CORELIB
+        fulladder_8
+            AOI220                  c35_CORELIB
+            CLKIN0                  c35_CORELIB
+            XNR20                   c35_CORELIB
+    fulladder_nbitsand_N4_3
+        CLKIN0                      c35_CORELIB
+        LOGIC0                      c35_CORELIB
+        NAND20                      c35_CORELIB
+        fulladder_9
+            AOI220                  c35_CORELIB
+            CLKIN0                  c35_CORELIB
+            XNR20                   c35_CORELIB
+        fulladder_10
+            AOI220                  c35_CORELIB
+            CLKIN0                  c35_CORELIB
+            XNR20                   c35_CORELIB
+        fulladder_11
+            AOI220                  c35_CORELIB
+            CLKIN0                  c35_CORELIB
+            XNR20                   c35_CORELIB
+        fulladder_12
+            AOI220                  c35_CORELIB
+            CLKIN0                  c35_CORELIB
+            XNR20                   c35_CORELIB
+1

@@ -7,19 +7,25 @@
 # //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
 # //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
 # //
-# vsim -L LIB_AMS -sdftyp /DUT=./SYNTH/SDF/fulladder.sdf -t ps LIB_BENCH.fulladder_synth_tb 
-# ** Note: (vsim-3812) Design is being optimized...
+# vsim -L LIB_AMS -sdftyp /DUT=./SYNTH/SDF/multip_nbits_synth.sdf -t ps LIB_BENCH.multip_nbits_synth_tb 
 # Loading std.standard
 # Loading std.textio(body)
 # Loading ieee.std_logic_1164(body)
-# Loading work.fulladder_synth_tb(fulladder_synth_tb_arch)#1
-# Loading lib_gates.fulladder(fast)
-# Loading LIB_AMS.XNR20(fast)
+# Loading work.multip_nbits_synth_tb(multip_nbits_synth_tb_arch)#1
+# Loading lib_gates.multip_nbits_Nb_bits4(fast)
 # Loading LIB_AMS.CLKIN0(fast)
+# Loading LIB_AMS.NAND20(fast)
+# Loading LIB_AMS.XNR20(fast)
 # Loading LIB_AMS.AOI220(fast)
-# Loading instances from ./SYNTH/SDF/fulladder.sdf
-# Loading timing data from ./SYNTH/SDF/fulladder.sdf
+# Loading instances from ./SYNTH/SDF/multip_nbits_synth.sdf
+# Loading timing data from ./SYNTH/SDF/multip_nbits_synth.sdf
 # ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
-#    Time: 0 ps  Iteration: 0  Instance: /fulladder_synth_tb File: /eleves/home/antoine.bore/3a/./SRC/BENCH/fulladder_synth_tb.vhd
-run
+#    Time: 0 ps  Iteration: 0  Instance: /multip_nbits_synth_tb File: /eleves/home/cyril.bataillie/VHDL3A/./SRC/BENCH/multip_nbits_synth_tb.vhd
+add wave \
+{sim:/multip_nbits_synth_tb/DUT/c_s } \
+{sim:/multip_nbits_synth_tb/DUT/op1_i } \
+{sim:/multip_nbits_synth_tb/DUT/op2_i } \
+{sim:/multip_nbits_synth_tb/DUT/s_o } 
+radix -u
+# unsigned
 run

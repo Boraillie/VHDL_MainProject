@@ -1,0 +1,110 @@
+m255
+K3
+13
+cModel Technology
+Z0 d/eleves/home/antoine.bore/3a
+T_opt
+Z1 V;5VbkZHOgLIR]Om05od]50
+Z2 04 18 23 work fulladder_synth_tb fulladder_synth_tb_arch 1
+Z3 =1-40a8f0c97e4f-5bb773db-6295e-279c
+Z4 o-quiet -auto_acc_if_foreign -work LIB_BENCH -L LIB_AMS -sdftyp /DUT=./SYNTH/SDF/fulladder.sdf -suppress 1948
+Z5 n@_opt
+Z6 OL;O;10.0;49
+Z7 d/eleves/home/antoine.bore/3a
+T_opt1
+Z8 V6hPfoLF79iZfIYN4?mFjH1
+Z9 04 17 0 work fulladder_tb_conf 1
+Z10 =1-40a8f0c97e4f-5bbb5f1e-10d29-3225
+Z11 o-quiet -auto_acc_if_foreign -work LIB_BENCH
+Z12 n@_opt1
+R6
+R7
+Efulladder_synth_tb
+Z13 w1538750040
+Z14 DPx3 std 6 textio 0 22 G^o2zK;Vh4eVdKTVo98653
+Z15 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z16 d/eleves/home/cyril.bataillie/VHDL3A
+Z17 8./SRC/BENCH/fulladder_synth_tb.vhd
+Z18 F./SRC/BENCH/fulladder_synth_tb.vhd
+l0
+L6
+Z19 VSGE5DHm;2ImX`f0a_>n6Z1
+Z20 OL;C;10.0;49
+32
+Z21 !s108 1539001662.545284
+Z22 !s90 -work|LIB_BENCH|./SRC/BENCH/fulladder_synth_tb.vhd|
+Z23 !s107 ./SRC/BENCH/fulladder_synth_tb.vhd|
+Z24 o-work LIB_BENCH
+Z25 tExplicit 1
+Z26 !s100 ZDd^3W_fJ]G<Q=LQ8:^UN1
+Afulladder_synth_tb_arch
+R14
+R15
+Z27 DEx4 work 18 fulladder_synth_tb 0 22 SGE5DHm;2ImX`f0a_>n6Z1
+l22
+L10
+Z28 V<1dT565clbVaSbmPJg[M71
+R20
+32
+R21
+R22
+R23
+R24
+R25
+Z29 !s100 Ue==3jILkEK`KcTBQ@NEH2
+Efulladder_tb
+Z30 w1537169483
+R14
+R15
+R7
+Z31 8./SRC/BENCH/fulladder_tb.vhd
+Z32 F./SRC/BENCH/fulladder_tb.vhd
+l0
+L7
+Z33 VNoOiNezYkf@RJ35ZUk?OT2
+R20
+32
+Z34 !s108 1537890390.785092
+Z35 !s90 -work|LIB_BENCH|./SRC/BENCH/fulladder_tb.vhd|
+Z36 !s107 ./SRC/BENCH/fulladder_tb.vhd|
+R24
+R25
+Z37 !s100 mbRMjhfeQOAgF3XF>N6Pm3
+Afulladder_tb_arch
+R14
+R15
+Z38 DEx4 work 12 fulladder_tb 0 22 NoOiNezYkf@RJ35ZUk?OT2
+l28
+L11
+Z39 VWCWdaA2RgT2Y6fPUNVHj:2
+R20
+32
+R34
+R35
+R36
+R24
+R25
+Z40 !s100 UVeR<^@VcI_ZcSM5?3VkQ2
+Cfulladder_tb_conf
+Z41 afulladder_tb_arch
+Z42 efulladder_tb
+Z43 DEx7 lib_rtl 9 fulladder 0 22 VAL5^F^S:>lIX>;I[6Vze1
+Z44 DAx4 work 12 fulladder_tb 17 fulladder_tb_arch 22 WCWdaA2RgT2Y6fPUNVHj:2
+R14
+R15
+R38
+R30
+R7
+R31
+R32
+l0
+L44
+Z45 VzbHCdfMncH9DI=lT^d7<=1
+R20
+32
+R34
+R35
+R36
+R24
+R25
+Z46 !s100 ]?f^2DDDJEe^@3nbz^[>]1

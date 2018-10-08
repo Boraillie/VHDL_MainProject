@@ -1,0 +1,57 @@
+ 
+****************************************
+Report : area
+Design : multip_nbits_Nb_bits4
+Version: D-2010.03-SP5-2
+Date   : Mon Oct  8 15:51:50 2018
+****************************************
+
+Library(s) Used:
+
+    c35_CORELIB (File: /soft/AMS_400_CDS/synopsys/c35_3.3V/c35_CORELIB.db)
+
+Number of ports:               16
+Number of nets:                29
+Number of cells:                5
+Number of references:           5
+
+Combinational area:       7753.199959
+Noncombinational area:       0.000000
+Net Interconnect area:    1944.000000  
+
+Total cell area:          7753.199959
+Total area:               9697.199959
+
+Hierarchical area distribution
+------------------------------
+
+                                  Global cell area          Local cell area
+                                  ------------------  ---------------------------- 
+Hierarchical cell                 Absolute   Percent  Combi-     Noncombi-  Black
+                                  Total      Total    national   national   boxes   Design
+--------------------------------  ---------  -------  ---------  ---------  ------  -----------------------
+multip_nbits_Nb_bits4             7753.2002    100.0    36.4000     0.0000  0.0000  multip_nbits_Nb_bits4
+U0_0                              1929.2001     24.9   400.4000     0.0000  0.0000  fulladder_nbitsand_N4_0
+U0_0/U0_0                          382.2000      4.9   382.2000     0.0000  0.0000  fulladder_0
+U0_0/U0_1                          382.2000      4.9   382.2000     0.0000  0.0000  fulladder_15
+U0_0/U0_2                          382.2000      4.9   382.2000     0.0000  0.0000  fulladder_14
+U0_0/U0_3                          382.2000      4.9   382.2000     0.0000  0.0000  fulladder_13
+U0_1                              1929.2001     24.9   400.4000     0.0000  0.0000  fulladder_nbitsand_N4_3
+U0_1/U0_0                          382.2000      4.9   382.2000     0.0000  0.0000  fulladder_12
+U0_1/U0_1                          382.2000      4.9   382.2000     0.0000  0.0000  fulladder_11
+U0_1/U0_2                          382.2000      4.9   382.2000     0.0000  0.0000  fulladder_10
+U0_1/U0_3                          382.2000      4.9   382.2000     0.0000  0.0000  fulladder_9
+U0_2                              1929.2001     24.9   400.4000     0.0000  0.0000  fulladder_nbitsand_N4_2
+U0_2/U0_0                          382.2000      4.9   382.2000     0.0000  0.0000  fulladder_8
+U0_2/U0_1                          382.2000      4.9   382.2000     0.0000  0.0000  fulladder_7
+U0_2/U0_2                          382.2000      4.9   382.2000     0.0000  0.0000  fulladder_6
+U0_2/U0_3                          382.2000      4.9   382.2000     0.0000  0.0000  fulladder_5
+U0_3                              1929.2001     24.9   400.4000     0.0000  0.0000  fulladder_nbitsand_N4_1
+U0_3/U0_0                          382.2000      4.9   382.2000     0.0000  0.0000  fulladder_4
+U0_3/U0_1                          382.2000      4.9   382.2000     0.0000  0.0000  fulladder_3
+U0_3/U0_2                          382.2000      4.9   382.2000     0.0000  0.0000  fulladder_2
+U0_3/U0_3                          382.2000      4.9   382.2000     0.0000  0.0000  fulladder_1
+--------------------------------  ---------  -------  ---------  ---------  ------  -----------------------
+Total                                                 7753.2012     0.0000  0.0000
+
+1

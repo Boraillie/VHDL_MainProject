@@ -1,0 +1,5 @@
+vlog -work LIB_GATES ./SRC/GATES/multip_nbits_synth.v
+
+vcom -work LIB_BENCH ./SRC/BENCH/multip_nbits_synth_tb.vhd
+
+vsim -L LIB_AMS -sdftyp /DUT=.SYNTH/SDF/multip_nbits_synth.sdf LIB_BENCH.fulladder_synth_tb -t ps
